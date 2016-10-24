@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">Atividade 13</string>
-    <string name="mensagem">Mundial do palmeiras</string>
-    <string name="mundial">Palmeiras nāo tem mundial</string>
+    <string name="app_name">Atividade 14</string>
+    <string name="agencia">Agência</string>
+    <string name="conta">Conta</string>
+    <string name="senha">Senha</string>
+    <string name="acessar">Acessar</string>
+
+    <string name="sacar">Sacar</string>
+    <string name="extrato">Extrato</string>
+    <string name="sair">Sair</string>
+    <string name="title_activity_menu">MenuActivity</string>
 </resources>
