@@ -4,19 +4,27 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="vertical" >
+    tools:context="atividade.usjt.com.br.atividade1.ExtratoActivity">
 
+    <EditText
+        android:id="@+id/dataDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dataDe"></EditText>
 
-    <DatePicker
-        android:layout_width="138dp"
-        android:layout_height="56dp"
-        android:id="@+id/datePicker" />
+    <EditText
+        android:id="@+id/dataAte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dataAte"></EditText>
 
-    <DatePicker
-        android:layout_width="159dp"
-        android:layout_height="54dp"
-        android:id="@+id/datePicker2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buscarExtrato"
+        android:text="@string/processar" />
 
 </LinearLayout>

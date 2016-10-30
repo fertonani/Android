@@ -4,24 +4,21 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    android:orientation="vertical" >
+    tools:context="atividade.usjt.com.br.atividade1.SaqueActivity">
 
+    <EditText
+        android:id="@+id/valorSaque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/valorSaque"></EditText>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/extrato"
-        android:onClick="verExtrato"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sacar"
-        android:onClick="verSacar"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sair"
-        android:onClick="sair"/>
+        android:onClick="sacar"
+        android:text="@string/sacar" />
+
 </LinearLayout>

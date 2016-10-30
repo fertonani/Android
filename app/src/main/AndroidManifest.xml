@@ -18,7 +18,15 @@
         <activity
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ExtratoActivity" />
+        <activity
+            android:name=".ListaExtratoActivity"
+            android:label="@string/title_activity_lista_extrato"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetalhesExtratoActivity" />
+        <activity android:name=".SaqueActivity" />
+        <activity android:name=".ResultadoSaqueActivity"></activity>
     </application>
 
 </manifest>
