@@ -10,9 +10,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Random;
 
 import atividade.usjt.com.br.atividade1.model.Historico;
 
@@ -112,12 +109,5 @@ public class ListaExtratoActivity extends AppCompatActivity {
             }
         }
         return lista;
-    }
-
-    public Date randomDate() {
-        Calendar data = Calendar.getInstance();
-        int dataRandom = new Random().nextInt(50);
-        data.add(Calendar.DATE, -dataRandom);
-        return data.getTime();
     }
 }
