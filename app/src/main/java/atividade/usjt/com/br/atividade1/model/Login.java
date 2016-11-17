@@ -1,9 +1,10 @@
 package atividade.usjt.com.br.atividade1.model;
 
 
+import java.io.Serializable;
 
-public class Login{
-	private String agencia, conta, senha;
+public class Login implements Serializable {
+    private String agencia, conta, senha;
 
     public Login(String agencia, String conta, String senha) {
         this.senha = senha;

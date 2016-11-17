@@ -4,10 +4,10 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:orientation="vertical" >
-    tools:context="atividade.usjt.com.br.atividade1.MainActivity">
+    android:paddingRight="16dp">
+    tools:context="atividade.usjt.com.br.atividade1.controller.MainActivity">
 
     <EditText
         android:id="@+id/agencia"
@@ -31,6 +31,6 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/acessar"
-        android:onClick="logar"/>
+        android:onClick="logar"
+        android:text="@string/acessar" />
 </LinearLayout>

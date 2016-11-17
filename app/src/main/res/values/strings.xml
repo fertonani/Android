@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Atividade 14</string>
+    <string name="app_name">Projeto para entrega</string>
     <string name="agencia">Agência</string>
     <string name="conta">Conta</string>
     <string name="senha">Senha</string>
@@ -10,11 +10,12 @@
     <string name="sair">Sair</string>
     <string name="title_activity_menu">MenuActivity</string>
 
-    <string name="dataDe">De:</string>
-    <string name="dataAte">Até:</string>
+    <string name="dataDe">De: (01/12/2001)</string>
+    <string name="dataAte">Até: (01/01/2017)</string>
     <string name="processar">Buscar</string>
     <string name="title_activity_lista_extrato">ListaExtratoActivity</string>
     <string name="title_activity_detalhes_extrato">DetalhesExtratoActivity</string>
 
     <string name="valorSaque">Valor do saque:</string>
+
 </resources>

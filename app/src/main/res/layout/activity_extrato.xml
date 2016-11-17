@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    tools:context="atividade.usjt.com.br.atividade1.ExtratoActivity">
+    tools:context="atividade.usjt.com.br.atividade1.controller.ExtratoActivity">
 
     <EditText
         android:id="@+id/dataDe"
