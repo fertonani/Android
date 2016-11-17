@@ -76,7 +76,7 @@ public class ExtratoActivity extends AppCompatActivity {
                 }
             }).start();
         } else {
-            Toast toast = Toast.makeText(this, "Rede indisponível", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(this, "Rede indisponível!", Toast.LENGTH_LONG);
             toast.show();
         }
     }
